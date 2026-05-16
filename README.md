@@ -1,8 +1,4 @@
 # Unilink-student-network
-MERN full-stack university networking platform with student profiles, posts, groups, events, notifications, admin controls, and JWT authentication.
-
-# UniLink
-
 UniLink is a full-stack university student networking platform. Students can sign in, create profiles, connect with other students, create posts, join groups, register for events, and receive notifications. Admin users can manage users, reported posts, and pending events.
 
 ## Tech Stack
