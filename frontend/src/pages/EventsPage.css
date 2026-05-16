@@ -1,0 +1,8 @@
+.events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.event-card { display: flex; flex-direction: column; }
+.event-card-header { display: flex; gap: 8px; margin-bottom: 12px; }
+.event-title { font-family: 'Sora', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+.event-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 14px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; flex: 1; }
+.event-meta { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+.event-meta span { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-muted); }
+.event-meta i { color: var(--primary); width: 14px; text-align: center; }

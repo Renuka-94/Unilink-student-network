@@ -1,0 +1,8 @@
+.create-post { margin-bottom: 24px; }
+.create-post-top { display: flex; gap: 12px; align-items: flex-start; }
+.create-post-input { flex: 1; resize: none; transition: all 0.3s ease; min-height: 48px; }
+.create-post-extras { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.create-post-actions { display: flex; align-items: center; justify-content: space-between; }
+.create-post-hints { display: flex; gap: 16px; }
+.create-post-hints span { font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 6px; }
+.create-post-hints i { color: var(--primary); }

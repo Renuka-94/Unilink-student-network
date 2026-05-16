@@ -1,0 +1,34 @@
+.feed-layout { display: grid; grid-template-columns: 1fr 340px; gap: 24px; max-width: 1100px; }
+@media (max-width: 1024px) { .feed-layout { grid-template-columns: 1fr; } .feed-sidebar { display: none; } }
+
+.feed-main { min-width: 0; }
+.feed-sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+.feed-profile-card { text-align: center; }
+.feed-profile-link { display: block; text-decoration: none; color: inherit; }
+.feed-profile-link h3 { font-family: 'Sora', sans-serif; font-size: 18px; font-weight: 700; }
+.feed-profile-link p { color: var(--text-muted); font-size: 13px; }
+.profile-stats { display: flex; gap: 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 16px -24px; }
+.profile-stats > div { flex: 1; padding: 12px; text-align: center; border-right: 1px solid var(--border); }
+.profile-stats > div:last-child { border-right: none; }
+.profile-stats strong { display: block; font-size: 22px; font-family: 'Sora', sans-serif; color: var(--primary-light); }
+.profile-stats span { font-size: 12px; color: var(--text-muted); }
+
+.sidebar-section-title { font-size: 15px; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.sidebar-section-title i { color: var(--primary); }
+
+.suggested-list { display: flex; flex-direction: column; gap: 12px; }
+.suggested-user { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.suggested-info { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex: 1; min-width: 0; }
+.suggested-info:hover .suggested-name { color: var(--primary-light); }
+.suggested-name { display: block; font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.suggested-dept { display: block; font-size: 11px; color: var(--text-muted); }
+
+.sidebar-events { display: flex; flex-direction: column; gap: 12px; }
+.sidebar-event { display: flex; align-items: center; gap: 12px; }
+.sidebar-event-date { text-align: center; min-width: 44px; background: rgba(99,102,241,0.15); border-radius: 10px; padding: 6px; }
+.sidebar-event-date span { display: block; font-size: 11px; color: var(--primary-light); text-transform: uppercase; }
+.sidebar-event-date strong { display: block; font-size: 20px; font-family: 'Sora', sans-serif; color: white; }
+.sidebar-event-name { display: block; font-size: 13px; font-weight: 500; }
+.sidebar-event-loc { display: block; font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+.sidebar-event-loc i { margin-right: 4px; color: var(--primary); }
